@@ -13,6 +13,7 @@
 		836FA7B61CCF581900514F4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836FA7B41CCF581900514F4A /* Main.storyboard */; };
 		836FA7B81CCF581900514F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 836FA7B71CCF581900514F4A /* Assets.xcassets */; };
 		836FA7BB1CCF581900514F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836FA7B91CCF581900514F4A /* LaunchScreen.storyboard */; };
+		836FA7C61CCF61A100514F4A /* EZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 836FA7C51CCF61A100514F4A /* EZTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		836FA7B71CCF581900514F4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		836FA7BA1CCF581900514F4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		836FA7BC1CCF581900514F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836FA7C41CCF61A100514F4A /* EZTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTableView.h; sourceTree = "<group>"; };
+		836FA7C51CCF61A100514F4A /* EZTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTableView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +61,6 @@
 		836FA7AA1CCF581900514F4A /* EZKit */ = {
 			isa = PBXGroup;
 			children = (
-				836FA7C21CCF5F8D00514F4A /* Classes */,
 				836FA7AE1CCF581900514F4A /* AppDelegate.h */,
 				836FA7AF1CCF581900514F4A /* AppDelegate.m */,
 				836FA7B11CCF581900514F4A /* ViewController.h */,
@@ -67,6 +69,7 @@
 				836FA7B71CCF581900514F4A /* Assets.xcassets */,
 				836FA7B91CCF581900514F4A /* LaunchScreen.storyboard */,
 				836FA7BC1CCF581900514F4A /* Info.plist */,
+				836FA7C21CCF5F8D00514F4A /* Classes */,
 				836FA7AB1CCF581900514F4A /* Supporting Files */,
 			);
 			path = EZKit;
@@ -83,8 +86,18 @@
 		836FA7C21CCF5F8D00514F4A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				836FA7C31CCF617000514F4A /* UI */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		836FA7C31CCF617000514F4A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				836FA7C41CCF61A100514F4A /* EZTableView.h */,
+				836FA7C51CCF61A100514F4A /* EZTableView.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +172,7 @@
 			files = (
 				836FA7B31CCF581900514F4A /* ViewController.m in Sources */,
 				836FA7B01CCF581900514F4A /* AppDelegate.m in Sources */,
+				836FA7C61CCF61A100514F4A /* EZTableView.m in Sources */,
 				836FA7AD1CCF581900514F4A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
