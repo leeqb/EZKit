@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EZNetwork.h"
 
 @interface NetworkTest1 : NSObject
+
+- (void)startRequest;
 
 @end

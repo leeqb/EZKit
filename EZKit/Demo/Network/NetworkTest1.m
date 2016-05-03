@@ -10,4 +10,12 @@
 
 @implementation NetworkTest1
 
+- (void)startRequest
+{
+    [[EZNetwork sharedInstance] POST:@"http://api.map.baidu.com/telematics/v3/weather?location=%E5%98%89%E5%85%B4&output=json&ak=5slgyqGDENN7Sy7pw29IUvrZ" params:nil success:^(NSDictionary *result) {
+    } failed:^(NSDictionary *result, NSError *error) {
+    } finally:^{
+    }];
+}
+
 @end

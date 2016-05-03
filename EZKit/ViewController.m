@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NetworkTest1.h"
 
 @interface ViewController ()
 
@@ -17,11 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NetworkTest1 *nt1 = [NetworkTest1 new];
+    [nt1 startRequest];
 }
 
 @end
