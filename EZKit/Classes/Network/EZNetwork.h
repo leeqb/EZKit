@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <AFNetworking.h>
 
 @interface EZNetwork : NSObject
+
++ (instancetype)sharedInstance;
 
 @end

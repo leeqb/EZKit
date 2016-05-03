@@ -10,4 +10,14 @@
 
 @implementation EZNetwork
 
++ (instancetype)sharedInstance
+{
+    static EZNetwork *instance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        instance = [self new];
+    });
+    return instance;
+}
+
 @end

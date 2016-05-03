@@ -41,6 +41,7 @@
 		83FCCA5A1CD874780061BD4C /* UITest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UITest.storyboard; sourceTree = "<group>"; };
 		83FCCA5C1CD875150061BD4C /* NetworkTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTest1.h; sourceTree = "<group>"; };
 		83FCCA5D1CD875150061BD4C /* NetworkTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTest1.m; sourceTree = "<group>"; };
+		83FCCA5F1CD8783D0061BD4C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				836FA7AC1CCF581900514F4A /* main.m */,
+				83FCCA5F1CD8783D0061BD4C /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -410,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "${PRODUCT_NAME}/PrefixHeader.pch";
 				INFOPLIST_FILE = EZKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.powerlee.EZKit;
@@ -423,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = "${PRODUCT_NAME}/PrefixHeader.pch";
 				INFOPLIST_FILE = EZKit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.powerlee.EZKit;
