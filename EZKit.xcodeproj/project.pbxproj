@@ -17,6 +17,7 @@
 		83BDB8F61CD1F256000306A9 /* EZNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BDB8F51CD1F256000306A9 /* EZNetwork.m */; };
 		83FCCA5B1CD874780061BD4C /* UITest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FCCA5A1CD874780061BD4C /* UITest.storyboard */; };
 		83FCCA5E1CD875150061BD4C /* NetworkTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FCCA5D1CD875150061BD4C /* NetworkTest1.m */; };
+		83FCCA611CD8AD780061BD4C /* EZKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 83FCCA601CD8AD780061BD4C /* EZKit.podspec */; };
 		8F701AC6B59ADCCCB2E3631B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5ABC2E35DD4FDB268811E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,7 @@
 		83FCCA5C1CD875150061BD4C /* NetworkTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTest1.h; sourceTree = "<group>"; };
 		83FCCA5D1CD875150061BD4C /* NetworkTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTest1.m; sourceTree = "<group>"; };
 		83FCCA5F1CD8783D0061BD4C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		83FCCA601CD8AD780061BD4C /* EZKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EZKit.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				836FA7AC1CCF581900514F4A /* main.m */,
 				83FCCA5F1CD8783D0061BD4C /* PrefixHeader.pch */,
+				83FCCA601CD8AD780061BD4C /* EZKit.podspec */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				836FA7BB1CCF581900514F4A /* LaunchScreen.storyboard in Resources */,
+				83FCCA611CD8AD780061BD4C /* EZKit.podspec in Resources */,
 				836FA7B81CCF581900514F4A /* Assets.xcassets in Resources */,
 				83FCCA5B1CD874780061BD4C /* UITest.storyboard in Resources */,
 				836FA7B61CCF581900514F4A /* Main.storyboard in Resources */,
