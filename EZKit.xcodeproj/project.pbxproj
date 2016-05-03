@@ -18,6 +18,7 @@
 		83FCCA5B1CD874780061BD4C /* UITest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FCCA5A1CD874780061BD4C /* UITest.storyboard */; };
 		83FCCA5E1CD875150061BD4C /* NetworkTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FCCA5D1CD875150061BD4C /* NetworkTest1.m */; };
 		83FCCA611CD8AD780061BD4C /* EZKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 83FCCA601CD8AD780061BD4C /* EZKit.podspec */; };
+		83FCCA871CD8B05C0061BD4C /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FCCA861CD8B05C0061BD4C /* TestObject.m */; };
 		8F701AC6B59ADCCCB2E3631B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5ABC2E35DD4FDB268811E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,8 @@
 		83FCCA5D1CD875150061BD4C /* NetworkTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTest1.m; sourceTree = "<group>"; };
 		83FCCA5F1CD8783D0061BD4C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		83FCCA601CD8AD780061BD4C /* EZKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EZKit.podspec; sourceTree = SOURCE_ROOT; };
+		83FCCA851CD8B05C0061BD4C /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		83FCCA861CD8B05C0061BD4C /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 			children = (
 				836FA7C31CCF617000514F4A /* UI */,
 				83BDB8F01CD1ECD8000306A9 /* Network */,
+				83FCCA851CD8B05C0061BD4C /* TestObject.h */,
+				83FCCA861CD8B05C0061BD4C /* TestObject.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -300,6 +305,7 @@
 				83FCCA5E1CD875150061BD4C /* NetworkTest1.m in Sources */,
 				836FA7B31CCF581900514F4A /* ViewController.m in Sources */,
 				836FA7B01CCF581900514F4A /* AppDelegate.m in Sources */,
+				83FCCA871CD8B05C0061BD4C /* TestObject.m in Sources */,
 				83BDB8F61CD1F256000306A9 /* EZNetwork.m in Sources */,
 				836FA7C61CCF61A100514F4A /* EZTableView.m in Sources */,
 				836FA7AD1CCF581900514F4A /* main.m in Sources */,
