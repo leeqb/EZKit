@@ -20,32 +20,56 @@
     return instance;
 }
 
+#pragma mark - Private Methods
+- (NSDictionary *)generateRequestParams:(NSDictionary *)params
+{
+    if (_beforeBlock) {
+        params = _beforeBlock(params);
+    }
+    
+    return params;
+}
+
 - (void)doRequest:(NSURLRequest *)request success:(RequestSuccessBlock)success failed:(RequestFailedBlock)failed finally:(void (^)())finally
 {
     NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] delegate:nil delegateQueue:[NSOperationQueue mainQueue]];
     NSURLSessionTask *dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        id result = data;
+        
         NSError *jsonError = nil;
         NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&jsonError];
         
+        // 如果JSON序列化失败，就将原始数据返回
+        if (!jsonError) {
+            result = dict;
+        }
+        
+        // 正常情况不返回error
+        if (_afterBlock) {
+            _afterBlock(result, error);
+        }
+        
         if (error || jsonError) {
-            failed(dict, error);
+            failed(result, error);
         } else {
-            NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-            success(dict);
+            success(result);
         }
         finally();
     }];
     [dataTask resume];
 }
 
+#pragma mark - Public Methods
 - (void)POST:(NSString *)url params:(NSDictionary *)params success:(RequestSuccessBlock)success failed:(RequestFailedBlock)failed finally:(void (^)())finally
 {
+    params = [self generateRequestParams:params];
     NSURLRequest *request = [[AFJSONRequestSerializer serializer] requestWithMethod:@"POST" URLString:url parameters:params error:nil];
     [self doRequest:request success:success failed:failed finally:finally];
 }
 
 - (void)GET:(NSString *)url params:(NSDictionary *)params success:(RequestSuccessBlock)success failed:(RequestFailedBlock)failed finally:(void (^)())finally
 {
+    params = [self generateRequestParams:params];
     NSURLRequest *request = [[AFJSONRequestSerializer serializer] requestWithMethod:@"GET" URLString:url parameters:params error:nil];
     [self doRequest:request success:success failed:failed finally:finally];
 }

@@ -10,10 +10,10 @@
 #import <AFNetworking.h>
 
 typedef NSDictionary *(^BeforeRequestBlock)(NSDictionary *params);
-typedef NSDictionary *(^AfterResponseBlock)(id responseObject);
+typedef NSDictionary *(^AfterResponseBlock)(id result, NSError *error);
+typedef void(^RequestSuccessBlock)(id result);
+typedef void(^RequestFailedBlock)(id result, NSError *error);
 typedef void(^NetworkStatusChangeBlock)(AFNetworkReachabilityStatus status);
-typedef void(^RequestSuccessBlock)(NSDictionary *result);
-typedef void(^RequestFailedBlock)(NSDictionary *result, NSError *error);
 
 @interface EZNetwork : NSObject
 
