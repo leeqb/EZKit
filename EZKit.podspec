@@ -96,8 +96,8 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = "Classes/**/*.h"
 
-  s.subspec "UI" do |ui|
-    ui.source_files = "EZKit/Classes/UI", "EZKit/Classes/UI/*.{h,m}"
+  s.subspec "UI1" do |ui|
+    ui.source_files = "EZKit/Classes/UI/*.{h,m}"
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
