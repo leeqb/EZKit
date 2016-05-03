@@ -49,7 +49,7 @@
             _afterBlock(result, error);
         }
         
-        if (error || jsonError) {
+        if (error) {
             failed(result, error);
         } else {
             success(result);
