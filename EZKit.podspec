@@ -97,11 +97,11 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
 
   s.subspec "UI" do |ui|
-    ui.source_files = "EZKit/Classes/UI/*.*"
+    ui.source_files = "EZKit/Classes/UI/*.{h,m}"
   end
 
-  s.subspec "Network" |nt|
-    nt.source_files = "EZKit/Classes/Network/*.*"
+  s.subspec "Network" do |nt|
+    nt.source_files = "EZKit/Classes/Network/*.{h,m}"
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
