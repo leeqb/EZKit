@@ -37,6 +37,7 @@
 		836FA7BC1CCF581900514F4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		836FA7C41CCF61A100514F4A /* EZTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZTableView.h; sourceTree = "<group>"; };
 		836FA7C51CCF61A100514F4A /* EZTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZTableView.m; sourceTree = "<group>"; };
+		837D49C81CE515A000A801E0 /* EZKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZKit.h; sourceTree = "<group>"; };
 		83BDB8F41CD1F256000306A9 /* EZNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZNetwork.h; sourceTree = "<group>"; };
 		83BDB8F51CD1F256000306A9 /* EZNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZNetwork.m; sourceTree = "<group>"; };
 		83FCCA5A1CD874780061BD4C /* UITest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UITest.storyboard; sourceTree = "<group>"; };
@@ -116,6 +117,7 @@
 		836FA7C21CCF5F8D00514F4A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				837D49C81CE515A000A801E0 /* EZKit.h */,
 				83FCCA881CD98E9D0061BD4C /* Category */,
 				836FA7C31CCF617000514F4A /* UI */,
 				83BDB8F01CD1ECD8000306A9 /* Network */,
