@@ -116,6 +116,7 @@
 		836FA7C21CCF5F8D00514F4A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				83FCCA881CD98E9D0061BD4C /* Category */,
 				836FA7C31CCF617000514F4A /* UI */,
 				83BDB8F01CD1ECD8000306A9 /* Network */,
 			);
@@ -164,6 +165,13 @@
 				83FCCA5A1CD874780061BD4C /* UITest.storyboard */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		83FCCA881CD98E9D0061BD4C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		D688DFF93CF997FDC98D098F /* Frameworks */ = {
