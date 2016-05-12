@@ -9,7 +9,8 @@
 #ifndef EZKit_h
 #define EZKit_h
 
-#import <AFNetworking.h>
+#import <Foundation/Foundation.h>
+
 #import "EZNetwork.h"
 
 #endif /* EZKit_h */

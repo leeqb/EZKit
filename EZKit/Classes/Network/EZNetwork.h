@@ -6,7 +6,7 @@
 //  Copyright © 2016 powerlee. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "AFNetworking.h"
 
 typedef NSDictionary *(^BeforeRequestBlock)(NSDictionary *params);
 typedef NSDictionary *(^AfterResponseBlock)(id result, NSError *error);
