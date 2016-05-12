@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <AFNetworking.h>
 
 typedef NSDictionary *(^BeforeRequestBlock)(NSDictionary *params);
 typedef NSDictionary *(^AfterResponseBlock)(id result, NSError *error);
