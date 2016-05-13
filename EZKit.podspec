@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/leeqb/EZKit.git", :commit => "b3f0248931e61da994164786c64890ed5fbe3966" }
+  s.source       = { :git => "https://github.com/leeqb/EZKit.git", :commit => "cb457a99016911e2b0f12c670e636cb09c459059" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
