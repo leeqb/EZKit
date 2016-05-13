@@ -9,6 +9,9 @@
 #ifndef EZKit_h
 #define EZKit_h
 
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
 #import "EZBaseViewController.h"
 #import "EZBaseTableViewController.h"
 
