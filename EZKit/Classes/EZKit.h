@@ -9,6 +9,9 @@
 #ifndef EZKit_h
 #define EZKit_h
 
+#import "EZBaseViewController.h"
+#import "EZBaseTableViewController.h"
+
 #import "EZNetwork.h"
 
 #endif /* EZKit_h */

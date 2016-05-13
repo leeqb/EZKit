@@ -7,6 +7,7 @@
 //
 
 #import "EZBaseViewController.h"
+#import "EZBaseController.h"
 
 @interface EZBaseViewController ()
 
