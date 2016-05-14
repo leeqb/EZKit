@@ -101,7 +101,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec "Category" do |cat|
-    cat.source_files = "EZKit/Classes/Base/Category/*.{h,m}"
+    cat.source_files = "EZKit/Classes/Category/*.{h,m}"
   end
 
   s.subspec "Network" do |nt|
