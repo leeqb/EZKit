@@ -98,7 +98,7 @@ Pod::Spec.new do |s|
 
   s.subspec "Base" do |bs|
     bs.source_files = "EZKit/Classes/Base/*.{h,m}"
-    s.subspec "Category" do |cat|
+    bs.subspec "Category" do |cat|
       cat.source_files = "EZKit/Classes/Base/Category/*.{h,m}"
     end
   end
