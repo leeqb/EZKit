@@ -14,10 +14,20 @@ typedef void(^RequestSuccessBlock)(id result);
 typedef void(^RequestFailedBlock)(id result, NSError *error);
 typedef void(^NetworkStatusChangeBlock)(AFNetworkReachabilityStatus status);
 
+@protocol EZNetworkDelegate<NSObject>
+
+@optional
+- (NSDictionary *)beforeRequest:(NSDictionary *)inParams;
+- (NSDictionary *)afterResponse:(NSDictionary *)receiveData error:(NSError *)error;
+- (void)networkStatusChange:(AFNetworkReachabilityStatus)status;
+
+@end
+
 @interface EZNetwork : NSObject
 
 + (instancetype)sharedInstance;
 
+@property (nonatomic, assign) id<EZNetworkDelegate> delegate;
 @property (atomic, strong) BeforeRequestBlock beforeBlock;
 @property (atomic, strong) AfterResponseBlock afterBlock;
 @property (atomic, strong) NetworkStatusChangeBlock statusChangeBlock;

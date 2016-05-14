@@ -27,6 +27,10 @@
         params = _beforeBlock(params);
     }
     
+    if ([_delegate respondsToSelector:@selector(beforeRequest:)]) {
+        params = [_delegate beforeRequest:params];
+    }
+    
     return params;
 }
 
@@ -47,6 +51,10 @@
         // 正常情况不返回error
         if (_afterBlock) {
             _afterBlock(result, error);
+        }
+        
+        if ([_delegate respondsToSelector:@selector(afterResponse:error:)]) {
+            [_delegate afterResponse:result error:error];
         }
         
         if (error) {
