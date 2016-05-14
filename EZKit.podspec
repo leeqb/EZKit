@@ -98,17 +98,18 @@ Pod::Spec.new do |s|
 
   s.subspec "Base" do |bs|
     bs.source_files = "EZKit/Classes/Base/*.{h,m}"
-    bs.subspec "Category" do |cat|
-      cat.source_files = "EZKit/Classes/Base/Category/*.{h,m}"
-    end
   end
 
-  s.subspec "UI" do |ui|
-    ui.source_files = "EZKit/Classes/UI/*.{h,m}"
+  s.subspec "Category" do |cat|
+    cat.source_files = "EZKit/Classes/Base/Category/*.{h,m}"
   end
 
   s.subspec "Network" do |nt|
     nt.source_files = "EZKit/Classes/Network/*.{h,m}"
+  end
+
+  s.subspec "UI" do |ui|
+    ui.source_files = "EZKit/Classes/UI/*.{h,m}"
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
