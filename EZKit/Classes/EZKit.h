@@ -12,9 +12,15 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#pragma mark - Base
 #import "EZBaseViewController.h"
 #import "EZBaseTableViewController.h"
 
+#pragma mark - Category
+#import "UITableView+Extension.h"
+#import "UITableViewCell+Extension.h"
+
+#pragma mark - Network
 #import "EZNetwork.h"
 
 #endif /* EZKit_h */
