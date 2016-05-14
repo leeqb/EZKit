@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830DFF501CE6B828008E0F5E /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DFF4D1CE6B828008E0F5E /* UITableView+Extension.m */; };
+		830DFF511CE6B828008E0F5E /* UITableViewCell+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DFF4F1CE6B828008E0F5E /* UITableViewCell+Extension.m */; };
 		8345650D1CE62C9300650A3A /* EZBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834565081CE62C9300650A3A /* EZBaseController.m */; };
 		8345650E1CE62C9300650A3A /* EZBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8345650A1CE62C9300650A3A /* EZBaseTableViewController.m */; };
 		8345650F1CE62C9300650A3A /* EZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8345650C1CE62C9300650A3A /* EZBaseViewController.m */; };
@@ -28,6 +30,10 @@
 		18F7060C854B0F4EB73C6EAA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		2CB5ABC2E35DD4FDB268811E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		52643DBF6AB7D86D6454B9D2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		830DFF4C1CE6B828008E0F5E /* UITableView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Extension.h"; sourceTree = "<group>"; };
+		830DFF4D1CE6B828008E0F5E /* UITableView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Extension.m"; sourceTree = "<group>"; };
+		830DFF4E1CE6B828008E0F5E /* UITableViewCell+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Extension.h"; sourceTree = "<group>"; };
+		830DFF4F1CE6B828008E0F5E /* UITableViewCell+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Extension.m"; sourceTree = "<group>"; };
 		834565071CE62C9300650A3A /* EZBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZBaseController.h; sourceTree = "<group>"; };
 		834565081CE62C9300650A3A /* EZBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZBaseController.m; sourceTree = "<group>"; };
 		834565091CE62C9300650A3A /* EZBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZBaseTableViewController.h; sourceTree = "<group>"; };
@@ -195,6 +201,10 @@
 		83FCCA881CD98E9D0061BD4C /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				830DFF4C1CE6B828008E0F5E /* UITableView+Extension.h */,
+				830DFF4D1CE6B828008E0F5E /* UITableView+Extension.m */,
+				830DFF4E1CE6B828008E0F5E /* UITableViewCell+Extension.h */,
+				830DFF4F1CE6B828008E0F5E /* UITableViewCell+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -334,7 +344,9 @@
 				8345650F1CE62C9300650A3A /* EZBaseViewController.m in Sources */,
 				836FA7B31CCF581900514F4A /* ViewController.m in Sources */,
 				836FA7B01CCF581900514F4A /* AppDelegate.m in Sources */,
+				830DFF511CE6B828008E0F5E /* UITableViewCell+Extension.m in Sources */,
 				83BDB8F61CD1F256000306A9 /* EZNetwork.m in Sources */,
+				830DFF501CE6B828008E0F5E /* UITableView+Extension.m in Sources */,
 				8345650D1CE62C9300650A3A /* EZBaseController.m in Sources */,
 				8345650E1CE62C9300650A3A /* EZBaseTableViewController.m in Sources */,
 				836FA7C61CCF61A100514F4A /* EZTableView.m in Sources */,
