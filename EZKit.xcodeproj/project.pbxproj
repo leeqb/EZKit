@@ -21,6 +21,7 @@
 		836FA7BB1CCF581900514F4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 836FA7B91CCF581900514F4A /* LaunchScreen.storyboard */; };
 		836FA7C61CCF61A100514F4A /* EZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 836FA7C51CCF61A100514F4A /* EZTableView.m */; };
 		83BDB8F61CD1F256000306A9 /* EZNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BDB8F51CD1F256000306A9 /* EZNetwork.m */; };
+		83C6D0941CEF3F5A00637BB5 /* EZCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C6D0931CEF3F5A00637BB5 /* EZCountDownButton.m */; };
 		83FCCA5B1CD874780061BD4C /* UITest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FCCA5A1CD874780061BD4C /* UITest.storyboard */; };
 		83FCCA5E1CD875150061BD4C /* NetworkTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FCCA5D1CD875150061BD4C /* NetworkTest1.m */; };
 		83FCCA611CD8AD780061BD4C /* EZKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 83FCCA601CD8AD780061BD4C /* EZKit.podspec */; };
@@ -59,6 +60,8 @@
 		837D49C81CE515A000A801E0 /* EZKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZKit.h; sourceTree = "<group>"; };
 		83BDB8F41CD1F256000306A9 /* EZNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZNetwork.h; sourceTree = "<group>"; };
 		83BDB8F51CD1F256000306A9 /* EZNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZNetwork.m; sourceTree = "<group>"; };
+		83C6D0921CEF3F5A00637BB5 /* EZCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZCountDownButton.h; sourceTree = "<group>"; };
+		83C6D0931CEF3F5A00637BB5 /* EZCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZCountDownButton.m; sourceTree = "<group>"; };
 		83FCCA5A1CD874780061BD4C /* UITest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UITest.storyboard; sourceTree = "<group>"; };
 		83FCCA5C1CD875150061BD4C /* NetworkTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTest1.h; sourceTree = "<group>"; };
 		83FCCA5D1CD875150061BD4C /* NetworkTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTest1.m; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 		836FA7C31CCF617000514F4A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				83C6D0921CEF3F5A00637BB5 /* EZCountDownButton.h */,
+				83C6D0931CEF3F5A00637BB5 /* EZCountDownButton.m */,
 				836FA7C41CCF61A100514F4A /* EZTableView.h */,
 				836FA7C51CCF61A100514F4A /* EZTableView.m */,
 				8313B33C1CE7F79A001C83B9 /* EZAlertView.h */,
@@ -351,6 +356,7 @@
 				836FA7B01CCF581900514F4A /* AppDelegate.m in Sources */,
 				830DFF511CE6B828008E0F5E /* UITableViewCell+Extension.m in Sources */,
 				83BDB8F61CD1F256000306A9 /* EZNetwork.m in Sources */,
+				83C6D0941CEF3F5A00637BB5 /* EZCountDownButton.m in Sources */,
 				8313B33E1CE7F79A001C83B9 /* EZAlertView.m in Sources */,
 				830DFF501CE6B828008E0F5E /* UITableView+Extension.m in Sources */,
 				8345650D1CE62C9300650A3A /* EZBaseController.m in Sources */,
