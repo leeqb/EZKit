@@ -10,7 +10,7 @@
 
 @interface EZAlertView : NSObject
 
-- (instancetype)sharedInstance;
++ (instancetype)sharedInstance;
 
 - (void)show:(NSString *)message;
 

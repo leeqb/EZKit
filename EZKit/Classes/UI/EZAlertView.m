@@ -10,7 +10,7 @@
 
 @implementation EZAlertView
 
-- (instancetype)sharedInstance
++ (instancetype)sharedInstance
 {
     static EZAlertView *instance = nil;
     static dispatch_once_t onceToken;
