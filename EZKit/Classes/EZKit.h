@@ -23,4 +23,7 @@
 #pragma mark - Network
 #import "EZNetwork.h"
 
+#pragma mark - UI
+#import "EZAlertView.h"
+
 #endif /* EZKit_h */

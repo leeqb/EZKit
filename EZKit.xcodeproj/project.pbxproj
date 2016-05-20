@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		830DFF501CE6B828008E0F5E /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DFF4D1CE6B828008E0F5E /* UITableView+Extension.m */; };
 		830DFF511CE6B828008E0F5E /* UITableViewCell+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DFF4F1CE6B828008E0F5E /* UITableViewCell+Extension.m */; };
+		8313B33E1CE7F79A001C83B9 /* EZAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8313B33D1CE7F79A001C83B9 /* EZAlertView.m */; };
 		8345650D1CE62C9300650A3A /* EZBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834565081CE62C9300650A3A /* EZBaseController.m */; };
 		8345650E1CE62C9300650A3A /* EZBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8345650A1CE62C9300650A3A /* EZBaseTableViewController.m */; };
 		8345650F1CE62C9300650A3A /* EZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8345650C1CE62C9300650A3A /* EZBaseViewController.m */; };
@@ -34,6 +35,8 @@
 		830DFF4D1CE6B828008E0F5E /* UITableView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Extension.m"; sourceTree = "<group>"; };
 		830DFF4E1CE6B828008E0F5E /* UITableViewCell+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Extension.h"; sourceTree = "<group>"; };
 		830DFF4F1CE6B828008E0F5E /* UITableViewCell+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Extension.m"; sourceTree = "<group>"; };
+		8313B33C1CE7F79A001C83B9 /* EZAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAlertView.h; sourceTree = "<group>"; };
+		8313B33D1CE7F79A001C83B9 /* EZAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAlertView.m; sourceTree = "<group>"; };
 		834565071CE62C9300650A3A /* EZBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZBaseController.h; sourceTree = "<group>"; };
 		834565081CE62C9300650A3A /* EZBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZBaseController.m; sourceTree = "<group>"; };
 		834565091CE62C9300650A3A /* EZBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZBaseTableViewController.h; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 			children = (
 				836FA7C41CCF61A100514F4A /* EZTableView.h */,
 				836FA7C51CCF61A100514F4A /* EZTableView.m */,
+				8313B33C1CE7F79A001C83B9 /* EZAlertView.h */,
+				8313B33D1CE7F79A001C83B9 /* EZAlertView.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -346,6 +351,7 @@
 				836FA7B01CCF581900514F4A /* AppDelegate.m in Sources */,
 				830DFF511CE6B828008E0F5E /* UITableViewCell+Extension.m in Sources */,
 				83BDB8F61CD1F256000306A9 /* EZNetwork.m in Sources */,
+				8313B33E1CE7F79A001C83B9 /* EZAlertView.m in Sources */,
 				830DFF501CE6B828008E0F5E /* UITableView+Extension.m in Sources */,
 				8345650D1CE62C9300650A3A /* EZBaseController.m in Sources */,
 				8345650E1CE62C9300650A3A /* EZBaseTableViewController.m in Sources */,
