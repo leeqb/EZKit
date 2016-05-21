@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EZAlertView : NSObject
+@interface EZAlertView : NSObject<UIAlertViewDelegate>
 
 + (instancetype)sharedInstance;
 

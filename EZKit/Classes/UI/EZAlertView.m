@@ -8,7 +8,12 @@
 
 #import "EZAlertView.h"
 
+typedef void(^ButtonClickedBlock)(NSInteger buttonIndex);
+
 @implementation EZAlertView
+{
+    __strong ButtonClickedBlock _buttonClicked;
+}
 
 + (instancetype)sharedInstance
 {
@@ -28,6 +33,23 @@
                                               cancelButtonTitle:@"确定"
                                               otherButtonTitles:nil];
     [alertView show];
+}
+
+- (void)confirm:(NSString *)message buttonClicked:(ButtonClickedBlock)buttonClicked
+{
+    _buttonClicked = buttonClicked;
+    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"提示"
+                                                        message:message
+                                                       delegate:self
+                                              cancelButtonTitle:@"取消"
+                                              otherButtonTitles:@"确定", nil];
+    [alertView show];
+}
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+    _buttonClicked(buttonIndex);
 }
 
 @end

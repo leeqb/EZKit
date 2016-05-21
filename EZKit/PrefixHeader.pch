@@ -14,4 +14,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+#import "EZKit.h"
+
 #endif /* PrefixHeader_pch */

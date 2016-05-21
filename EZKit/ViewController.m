@@ -20,6 +20,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     NetworkTest1 *nt1 = [NetworkTest1 new];
     [nt1 startRequest];
+    
+    [EZAlertView.sharedInstance show:@"sss"];
 }
 
 @end
