@@ -8,10 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+typedef void(^ButtonClickedBlock)(NSInteger buttonIndex);
+
 @interface EZAlertView : NSObject<UIAlertViewDelegate>
 
 + (instancetype)sharedInstance;
 
 - (void)show:(NSString *)message;
+- (void)confirm:(NSString *)message buttonClicked:(ButtonClickedBlock)buttonClicked;
 
 @end

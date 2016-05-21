@@ -8,8 +8,6 @@
 
 #import "EZAlertView.h"
 
-typedef void(^ButtonClickedBlock)(NSInteger buttonIndex);
-
 @implementation EZAlertView
 {
     __strong ButtonClickedBlock _buttonClicked;
