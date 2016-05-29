@@ -17,6 +17,7 @@
 #import "EZBaseTableViewController.h"
 
 #pragma mark - Category
+#import "UIColor+Hex.h"
 #import "UITableView+Extension.h"
 #import "UITableViewCell+Extension.h"
 
