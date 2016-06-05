@@ -26,6 +26,7 @@
 
 #pragma mark - UI
 #import "EZAlertView.h"
+#import "EZPopWindow.h"
 #import "EZCountDownButton.h"
 
 #endif /* EZKit_h */

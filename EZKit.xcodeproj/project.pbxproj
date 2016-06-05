@@ -23,6 +23,9 @@
 		8382DD061CFA795300FE9415 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8382DD051CFA795300FE9415 /* UIColor+Hex.m */; };
 		83BDB8F61CD1F256000306A9 /* EZNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BDB8F51CD1F256000306A9 /* EZNetwork.m */; };
 		83C6D0941CEF3F5A00637BB5 /* EZCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C6D0931CEF3F5A00637BB5 /* EZCountDownButton.m */; };
+		83E1D1971D03CC3D002CB0B2 /* EZPopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D1961D03CC3D002CB0B2 /* EZPopWindow.m */; };
+		83E1D19A1D03D99D002CB0B2 /* WindowTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E1D1991D03D99D002CB0B2 /* WindowTest.storyboard */; };
+		83E1D19D1D03D9DC002CB0B2 /* PopWindowTestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D19C1D03D9DC002CB0B2 /* PopWindowTestViewController1.m */; };
 		83FCCA5B1CD874780061BD4C /* UITest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FCCA5A1CD874780061BD4C /* UITest.storyboard */; };
 		83FCCA5E1CD875150061BD4C /* NetworkTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FCCA5D1CD875150061BD4C /* NetworkTest1.m */; };
 		83FCCA611CD8AD780061BD4C /* EZKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 83FCCA601CD8AD780061BD4C /* EZKit.podspec */; };
@@ -65,6 +68,11 @@
 		83BDB8F51CD1F256000306A9 /* EZNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZNetwork.m; sourceTree = "<group>"; };
 		83C6D0921CEF3F5A00637BB5 /* EZCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZCountDownButton.h; sourceTree = "<group>"; };
 		83C6D0931CEF3F5A00637BB5 /* EZCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZCountDownButton.m; sourceTree = "<group>"; };
+		83E1D1951D03CC3D002CB0B2 /* EZPopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPopWindow.h; sourceTree = "<group>"; };
+		83E1D1961D03CC3D002CB0B2 /* EZPopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPopWindow.m; sourceTree = "<group>"; };
+		83E1D1991D03D99D002CB0B2 /* WindowTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WindowTest.storyboard; sourceTree = "<group>"; };
+		83E1D19B1D03D9DC002CB0B2 /* PopWindowTestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopWindowTestViewController1.h; sourceTree = "<group>"; };
+		83E1D19C1D03D9DC002CB0B2 /* PopWindowTestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopWindowTestViewController1.m; sourceTree = "<group>"; };
 		83FCCA5A1CD874780061BD4C /* UITest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UITest.storyboard; sourceTree = "<group>"; };
 		83FCCA5C1CD875150061BD4C /* NetworkTest1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTest1.h; sourceTree = "<group>"; };
 		83FCCA5D1CD875150061BD4C /* NetworkTest1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTest1.m; sourceTree = "<group>"; };
@@ -166,6 +174,7 @@
 		836FA7C31CCF617000514F4A /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				83E1D1941D03CB20002CB0B2 /* Window */,
 				83C6D0921CEF3F5A00637BB5 /* EZCountDownButton.h */,
 				83C6D0931CEF3F5A00637BB5 /* EZCountDownButton.m */,
 				836FA7C41CCF61A100514F4A /* EZTableView.h */,
@@ -183,6 +192,25 @@
 				83BDB8F51CD1F256000306A9 /* EZNetwork.m */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		83E1D1941D03CB20002CB0B2 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				83E1D1951D03CC3D002CB0B2 /* EZPopWindow.h */,
+				83E1D1961D03CC3D002CB0B2 /* EZPopWindow.m */,
+			);
+			path = Window;
+			sourceTree = "<group>";
+		};
+		83E1D1981D03D76F002CB0B2 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				83E1D1991D03D99D002CB0B2 /* WindowTest.storyboard */,
+				83E1D19B1D03D9DC002CB0B2 /* PopWindowTestViewController1.h */,
+				83E1D19C1D03D9DC002CB0B2 /* PopWindowTestViewController1.m */,
+			);
+			path = Window;
 			sourceTree = "<group>";
 		};
 		83FCCA571CD874210061BD4C /* Demo */ = {
@@ -207,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				83FCCA5A1CD874780061BD4C /* UITest.storyboard */,
+				83E1D1981D03D76F002CB0B2 /* Window */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -292,6 +321,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E1D19A1D03D99D002CB0B2 /* WindowTest.storyboard in Resources */,
 				836FA7BB1CCF581900514F4A /* LaunchScreen.storyboard in Resources */,
 				83FCCA611CD8AD780061BD4C /* EZKit.podspec in Resources */,
 				836FA7B81CCF581900514F4A /* Assets.xcassets in Resources */,
@@ -355,7 +385,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83E1D19D1D03D9DC002CB0B2 /* PopWindowTestViewController1.m in Sources */,
 				83FCCA5E1CD875150061BD4C /* NetworkTest1.m in Sources */,
+				83E1D1971D03CC3D002CB0B2 /* EZPopWindow.m in Sources */,
 				8345650F1CE62C9300650A3A /* EZBaseViewController.m in Sources */,
 				836FA7B31CCF581900514F4A /* ViewController.m in Sources */,
 				836FA7B01CCF581900514F4A /* AppDelegate.m in Sources */,
