@@ -20,6 +20,7 @@
 #import "UIColor+Hex.h"
 #import "UITableView+Extension.h"
 #import "UITableViewCell+Extension.h"
+#import "NSDate+Extension.h"
 
 #pragma mark - Network
 #import "EZNetwork.h"

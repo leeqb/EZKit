@@ -29,6 +29,11 @@
 //    
 //    [EZAlertView.sharedInstance show:@"sss"];
     
+    NSDate *currentDate = [NSDate date];
+    currentDate = [currentDate zeroDate];
+    NSLog(@"%@", [currentDate stringWithFormat:kEZDateFormat_FULL]);
+    NSLog(@"%@", [NSDate timeStringWithSeconds:20 formatString:kEZDateFormat_TIME]);
+    
     _menuArray = @[@"弹出框"];
 }
 
