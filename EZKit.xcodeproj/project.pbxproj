@@ -10,6 +10,7 @@
 		830DFF501CE6B828008E0F5E /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DFF4D1CE6B828008E0F5E /* UITableView+Extension.m */; };
 		830DFF511CE6B828008E0F5E /* UITableViewCell+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DFF4F1CE6B828008E0F5E /* UITableViewCell+Extension.m */; };
 		8313B33E1CE7F79A001C83B9 /* EZAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8313B33D1CE7F79A001C83B9 /* EZAlertView.m */; };
+		831680BB1D0439320060A1C0 /* EZPopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 831680BA1D0439320060A1C0 /* EZPopWindow.m */; };
 		8345650D1CE62C9300650A3A /* EZBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834565081CE62C9300650A3A /* EZBaseController.m */; };
 		8345650E1CE62C9300650A3A /* EZBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8345650A1CE62C9300650A3A /* EZBaseTableViewController.m */; };
 		8345650F1CE62C9300650A3A /* EZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8345650C1CE62C9300650A3A /* EZBaseViewController.m */; };
@@ -23,7 +24,6 @@
 		8382DD061CFA795300FE9415 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8382DD051CFA795300FE9415 /* UIColor+Hex.m */; };
 		83BDB8F61CD1F256000306A9 /* EZNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BDB8F51CD1F256000306A9 /* EZNetwork.m */; };
 		83C6D0941CEF3F5A00637BB5 /* EZCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 83C6D0931CEF3F5A00637BB5 /* EZCountDownButton.m */; };
-		83E1D1971D03CC3D002CB0B2 /* EZPopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D1961D03CC3D002CB0B2 /* EZPopWindow.m */; };
 		83E1D19A1D03D99D002CB0B2 /* WindowTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83E1D1991D03D99D002CB0B2 /* WindowTest.storyboard */; };
 		83E1D19D1D03D9DC002CB0B2 /* PopWindowTestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D19C1D03D9DC002CB0B2 /* PopWindowTestViewController1.m */; };
 		83E1D1A41D042795002CB0B2 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E1D1A31D042795002CB0B2 /* NSDate+Extension.m */; };
@@ -43,6 +43,8 @@
 		830DFF4F1CE6B828008E0F5E /* UITableViewCell+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+Extension.m"; sourceTree = "<group>"; };
 		8313B33C1CE7F79A001C83B9 /* EZAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZAlertView.h; sourceTree = "<group>"; };
 		8313B33D1CE7F79A001C83B9 /* EZAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZAlertView.m; sourceTree = "<group>"; };
+		831680B91D0439320060A1C0 /* EZPopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPopWindow.h; sourceTree = "<group>"; };
+		831680BA1D0439320060A1C0 /* EZPopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPopWindow.m; sourceTree = "<group>"; };
 		834565071CE62C9300650A3A /* EZBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZBaseController.h; sourceTree = "<group>"; };
 		834565081CE62C9300650A3A /* EZBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZBaseController.m; sourceTree = "<group>"; };
 		834565091CE62C9300650A3A /* EZBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZBaseTableViewController.h; sourceTree = "<group>"; };
@@ -69,8 +71,6 @@
 		83BDB8F51CD1F256000306A9 /* EZNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZNetwork.m; sourceTree = "<group>"; };
 		83C6D0921CEF3F5A00637BB5 /* EZCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZCountDownButton.h; sourceTree = "<group>"; };
 		83C6D0931CEF3F5A00637BB5 /* EZCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZCountDownButton.m; sourceTree = "<group>"; };
-		83E1D1951D03CC3D002CB0B2 /* EZPopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPopWindow.h; sourceTree = "<group>"; };
-		83E1D1961D03CC3D002CB0B2 /* EZPopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPopWindow.m; sourceTree = "<group>"; };
 		83E1D1991D03D99D002CB0B2 /* WindowTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WindowTest.storyboard; sourceTree = "<group>"; };
 		83E1D19B1D03D9DC002CB0B2 /* PopWindowTestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopWindowTestViewController1.h; sourceTree = "<group>"; };
 		83E1D19C1D03D9DC002CB0B2 /* PopWindowTestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopWindowTestViewController1.m; sourceTree = "<group>"; };
@@ -177,7 +177,8 @@
 		836FA7C31CCF617000514F4A /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				83E1D1941D03CB20002CB0B2 /* Window */,
+				831680B91D0439320060A1C0 /* EZPopWindow.h */,
+				831680BA1D0439320060A1C0 /* EZPopWindow.m */,
 				83C6D0921CEF3F5A00637BB5 /* EZCountDownButton.h */,
 				83C6D0931CEF3F5A00637BB5 /* EZCountDownButton.m */,
 				836FA7C41CCF61A100514F4A /* EZTableView.h */,
@@ -195,15 +196,6 @@
 				83BDB8F51CD1F256000306A9 /* EZNetwork.m */,
 			);
 			path = Network;
-			sourceTree = "<group>";
-		};
-		83E1D1941D03CB20002CB0B2 /* Window */ = {
-			isa = PBXGroup;
-			children = (
-				83E1D1951D03CC3D002CB0B2 /* EZPopWindow.h */,
-				83E1D1961D03CC3D002CB0B2 /* EZPopWindow.m */,
-			);
-			path = Window;
 			sourceTree = "<group>";
 		};
 		83E1D1981D03D76F002CB0B2 /* Window */ = {
@@ -392,12 +384,12 @@
 			files = (
 				83E1D19D1D03D9DC002CB0B2 /* PopWindowTestViewController1.m in Sources */,
 				83FCCA5E1CD875150061BD4C /* NetworkTest1.m in Sources */,
-				83E1D1971D03CC3D002CB0B2 /* EZPopWindow.m in Sources */,
 				8345650F1CE62C9300650A3A /* EZBaseViewController.m in Sources */,
 				836FA7B31CCF581900514F4A /* ViewController.m in Sources */,
 				836FA7B01CCF581900514F4A /* AppDelegate.m in Sources */,
 				830DFF511CE6B828008E0F5E /* UITableViewCell+Extension.m in Sources */,
 				83BDB8F61CD1F256000306A9 /* EZNetwork.m in Sources */,
+				831680BB1D0439320060A1C0 /* EZPopWindow.m in Sources */,
 				83C6D0941CEF3F5A00637BB5 /* EZCountDownButton.m in Sources */,
 				8313B33E1CE7F79A001C83B9 /* EZAlertView.m in Sources */,
 				83E1D1A41D042795002CB0B2 /* NSDate+Extension.m in Sources */,
