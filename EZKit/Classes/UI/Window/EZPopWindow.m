@@ -8,11 +8,10 @@
 
 #import "EZPopWindow.h"
 
-UIWindow *popWindow;
+UIWindow *ezPopWindow;
 
 @implementation EZPopWindow
 {
-    //UIWindow *_popWindow;
     UIView *_translucentView;
 }
 
@@ -22,14 +21,17 @@ UIWindow *popWindow;
     if (self) {
         _contentView = contentView;
         
-        popWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-        popWindow.windowLevel = UIWindowLevelAlert;
-        [popWindow makeKeyAndVisible];
+        ezPopWindow = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        ezPopWindow.windowLevel = UIWindowLevelNormal;
+        [ezPopWindow makeKeyAndVisible];
         
         _translucentView = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
         _translucentView.backgroundColor = [UIColor blackColor];
         _translucentView.alpha = 0;
-        [popWindow addSubview:_translucentView];
+        [ezPopWindow addSubview:_translucentView];
+        
+        UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(dismiss)];
+        [_translucentView addGestureRecognizer:tapGesture];
     }
     return self;
 }
@@ -52,6 +54,7 @@ UIWindow *popWindow;
         
         CABasicAnimation *basicAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
         basicAnimation.toValue = @0.3;
+        basicAnimation.duration = 0.3;
         basicAnimation.removedOnCompletion = NO;
         basicAnimation.fillMode = kCAFillModeForwards;
         [_translucentView.layer addAnimation:basicAnimation forKey:nil];
@@ -60,7 +63,14 @@ UIWindow *popWindow;
 
 - (void)dismiss
 {
-    
+    if (_contentView) {
+        CABasicAnimation *basicAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
+        basicAnimation.toValue = @0;
+        basicAnimation.duration = 0.3;
+        basicAnimation.removedOnCompletion = NO;
+        basicAnimation.fillMode = kCAFillModeForwards;
+        [_translucentView.layer addAnimation:basicAnimation forKey:nil];
+    }
 }
 
 @end
