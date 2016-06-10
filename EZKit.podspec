@@ -109,7 +109,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec "UI" do |ui|
-    ui.source_files = "EZKit/Classes/UI/*.{h,m,xib}"
+    ui.source_files = "EZKit/Classes/UI/*.{h,m}"
   end
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "EZKit/Resources/*.png"
+  s.resources = "EZKit/Resources/*.{png,xib}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
