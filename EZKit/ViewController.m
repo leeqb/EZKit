@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "PopWindowTestViewController1.h"
+#import "SearchBarTestViewController1.h"
 
 #define LOAD_CONTROLLER(nib, vc)    [[UIStoryboard storyboardWithName:nib bundle:nil]instantiateViewControllerWithIdentifier:vc];
 
@@ -31,10 +32,10 @@
     
     NSDate *currentDate = [NSDate date];
     currentDate = [currentDate zeroDate];
-    NSLog(@"%@", [currentDate stringWithFormat:kEZDateFormat_FULL]);
-    NSLog(@"%@", [NSDate timeStringWithSeconds:20 formatString:kEZDateFormat_TIME]);
+    //NSLog(@"%@", [currentDate stringWithFormat:kEZDateFormat_FULL]);
+    //NSLog(@"%@", [NSDate timeStringWithSeconds:20 formatString:kEZDateFormat_TIME]);
     
-    _menuArray = @[@"弹出框"];
+    _menuArray = @[@"弹出框", @"搜索框"];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -58,6 +59,12 @@
         case 0:
         {
             PopWindowTestViewController1 *vc = LOAD_CONTROLLER(@"WindowTest", @"PopWindowTestViewController1");
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 1:
+        {
+            SearchBarTestViewController1 *vc = LOAD_CONTROLLER(@"SearchBar", @"SearchBarTestViewController1");
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EZSearchBar"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="搜索" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LQT-Fe-gLg">
+                    <rect key="frame" x="170" y="0.0" width="140" height="44"/>
+                    <color key="backgroundColor" red="0.85490196080000003" green="0.94117647059999998" blue="0.99607843139999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="140" id="v0Z-J7-pfl"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Bde-Rh-hQR"/>
+                    </connections>
+                </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PXi-KF-6vY">
+                    <rect key="frame" x="130" y="7" width="30" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Vh8-72-exU"/>
+                        <constraint firstAttribute="width" constant="30" id="pUk-3a-sJS"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LQT-Fe-gLg" firstAttribute="leading" secondItem="PXi-KF-6vY" secondAttribute="trailing" constant="10" id="6Fn-km-d4M"/>
+                <constraint firstAttribute="trailing" secondItem="LQT-Fe-gLg" secondAttribute="trailing" constant="10" id="78G-mn-io7"/>
+                <constraint firstItem="LQT-Fe-gLg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="A2S-KQ-Jyq"/>
+                <constraint firstAttribute="trailing" secondItem="PXi-KF-6vY" secondAttribute="trailing" constant="10" id="wF4-AN-tyG"/>
+                <constraint firstItem="PXi-KF-6vY" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="yca-4J-tVm"/>
+                <constraint firstAttribute="bottom" secondItem="LQT-Fe-gLg" secondAttribute="bottom" id="zHS-QJ-K1D"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="wF4-AN-tyG"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="302" y="191"/>
+        </view>
+    </objects>
+</document>
