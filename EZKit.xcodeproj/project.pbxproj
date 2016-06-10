@@ -12,6 +12,7 @@
 		8313B33E1CE7F79A001C83B9 /* EZAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8313B33D1CE7F79A001C83B9 /* EZAlertView.m */; };
 		831680BB1D0439320060A1C0 /* EZPopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 831680BA1D0439320060A1C0 /* EZPopWindow.m */; };
 		8328DCCC1D0A7999007CC8AA /* EZSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8328DCCB1D0A7999007CC8AA /* EZSearchBar.xib */; };
+		8328DCCF1D0AB7FA007CC8AA /* search_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8328DCCE1D0AB7FA007CC8AA /* search_icon@2x.png */; };
 		833870E61D0A6AFC006BE1A3 /* EZSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 833870E51D0A6AFC006BE1A3 /* EZSearchBar.m */; };
 		833870E91D0A6C64006BE1A3 /* SearchBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833870E81D0A6C64006BE1A3 /* SearchBar.storyboard */; };
 		833870EC1D0A6C82006BE1A3 /* SearchBarTestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 833870EB1D0A6C82006BE1A3 /* SearchBarTestViewController1.m */; };
@@ -50,6 +51,7 @@
 		831680B91D0439320060A1C0 /* EZPopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZPopWindow.h; sourceTree = "<group>"; };
 		831680BA1D0439320060A1C0 /* EZPopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPopWindow.m; sourceTree = "<group>"; };
 		8328DCCB1D0A7999007CC8AA /* EZSearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZSearchBar.xib; sourceTree = "<group>"; };
+		8328DCCE1D0AB7FA007CC8AA /* search_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_icon@2x.png"; sourceTree = "<group>"; };
 		833870E41D0A6AFC006BE1A3 /* EZSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZSearchBar.h; sourceTree = "<group>"; };
 		833870E51D0A6AFC006BE1A3 /* EZSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZSearchBar.m; sourceTree = "<group>"; };
 		833870E81D0A6C64006BE1A3 /* SearchBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchBar.storyboard; sourceTree = "<group>"; };
@@ -113,6 +115,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		8328DCCD1D0AB7FA007CC8AA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8328DCCE1D0AB7FA007CC8AA /* search_icon@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		833870E71D0A6C58006BE1A3 /* SearchBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +176,7 @@
 				836FA7B91CCF581900514F4A /* LaunchScreen.storyboard */,
 				836FA7BC1CCF581900514F4A /* Info.plist */,
 				836FA7C21CCF5F8D00514F4A /* Classes */,
+				8328DCCD1D0AB7FA007CC8AA /* Resources */,
 				83FCCA571CD874210061BD4C /* Demo */,
 				836FA7AB1CCF581900514F4A /* Supporting Files */,
 			);
@@ -345,6 +356,7 @@
 				83E1D19A1D03D99D002CB0B2 /* WindowTest.storyboard in Resources */,
 				836FA7BB1CCF581900514F4A /* LaunchScreen.storyboard in Resources */,
 				8328DCCC1D0A7999007CC8AA /* EZSearchBar.xib in Resources */,
+				8328DCCF1D0AB7FA007CC8AA /* search_icon@2x.png in Resources */,
 				83FCCA611CD8AD780061BD4C /* EZKit.podspec in Resources */,
 				836FA7B81CCF581900514F4A /* Assets.xcassets in Resources */,
 				83FCCA5B1CD874780061BD4C /* UITest.storyboard in Resources */,
