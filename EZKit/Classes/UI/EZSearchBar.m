@@ -9,8 +9,8 @@
 #import "EZSearchBar.h"
 
 @interface EZSearchBar()<UITextFieldDelegate>
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *inputWidth;
-@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (strong, nonatomic) IBOutlet NSLayoutConstraint *inputWidth;
+@property (strong, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
