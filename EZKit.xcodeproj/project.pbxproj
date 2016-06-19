@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73D65E890A4B413EF396B7DB /* libPods-EZKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A4CCACE8E943D576E4715A /* libPods-EZKit.a */; };
 		830DFF501CE6B828008E0F5E /* UITableView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DFF4D1CE6B828008E0F5E /* UITableView+Extension.m */; };
 		830DFF511CE6B828008E0F5E /* UITableViewCell+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 830DFF4F1CE6B828008E0F5E /* UITableViewCell+Extension.m */; };
 		8313B33E1CE7F79A001C83B9 /* EZAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8313B33D1CE7F79A001C83B9 /* EZAlertView.m */; };
@@ -19,6 +20,14 @@
 		8345650D1CE62C9300650A3A /* EZBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834565081CE62C9300650A3A /* EZBaseController.m */; };
 		8345650E1CE62C9300650A3A /* EZBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8345650A1CE62C9300650A3A /* EZBaseTableViewController.m */; };
 		8345650F1CE62C9300650A3A /* EZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8345650C1CE62C9300650A3A /* EZBaseViewController.m */; };
+		83654E451D165E0B00E7A12D /* EZRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = 83654E441D165E0B00E7A12D /* EZRadio.m */; };
+		83654E481D165E4700E7A12D /* EZRadioGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 83654E471D165E4700E7A12D /* EZRadioGroup.m */; };
+		83654E4B1D165EB200E7A12D /* RadioTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83654E4A1D165EB200E7A12D /* RadioTest.storyboard */; };
+		83654E4E1D165ED500E7A12D /* RadioTestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 83654E4D1D165ED500E7A12D /* RadioTestViewController1.m */; };
+		83654E561D1692B300E7A12D /* radio_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83654E521D1692B300E7A12D /* radio_down@2x.png */; };
+		83654E571D1692B300E7A12D /* radio_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83654E531D1692B300E7A12D /* radio_down@3x.png */; };
+		83654E581D1692B300E7A12D /* radio@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83654E541D1692B300E7A12D /* radio@2x.png */; };
+		83654E591D1692B300E7A12D /* radio@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83654E551D1692B300E7A12D /* radio@3x.png */; };
 		836FA7AD1CCF581900514F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836FA7AC1CCF581900514F4A /* main.m */; };
 		836FA7B01CCF581900514F4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836FA7AF1CCF581900514F4A /* AppDelegate.m */; };
 		836FA7B31CCF581900514F4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836FA7B21CCF581900514F4A /* ViewController.m */; };
@@ -35,13 +44,12 @@
 		83FCCA5B1CD874780061BD4C /* UITest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83FCCA5A1CD874780061BD4C /* UITest.storyboard */; };
 		83FCCA5E1CD875150061BD4C /* NetworkTest1.m in Sources */ = {isa = PBXBuildFile; fileRef = 83FCCA5D1CD875150061BD4C /* NetworkTest1.m */; };
 		83FCCA611CD8AD780061BD4C /* EZKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 83FCCA601CD8AD780061BD4C /* EZKit.podspec */; };
-		8F701AC6B59ADCCCB2E3631B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB5ABC2E35DD4FDB268811E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18F7060C854B0F4EB73C6EAA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		2CB5ABC2E35DD4FDB268811E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		52643DBF6AB7D86D6454B9D2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2973336F9A26DB81CEC26470 /* Pods-EZKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-EZKit/Pods-EZKit.release.xcconfig"; sourceTree = "<group>"; };
+		421C1ACCF780AE85B6EA833C /* Pods-EZKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EZKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EZKit/Pods-EZKit.debug.xcconfig"; sourceTree = "<group>"; };
+		79A4CCACE8E943D576E4715A /* libPods-EZKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EZKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		830DFF4C1CE6B828008E0F5E /* UITableView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Extension.h"; sourceTree = "<group>"; };
 		830DFF4D1CE6B828008E0F5E /* UITableView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Extension.m"; sourceTree = "<group>"; };
 		830DFF4E1CE6B828008E0F5E /* UITableViewCell+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+Extension.h"; sourceTree = "<group>"; };
@@ -64,6 +72,17 @@
 		8345650B1CE62C9300650A3A /* EZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZBaseViewController.h; sourceTree = "<group>"; };
 		8345650C1CE62C9300650A3A /* EZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZBaseViewController.m; sourceTree = "<group>"; };
 		834565101CE62DFF00650A3A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		83654E431D165E0B00E7A12D /* EZRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRadio.h; sourceTree = "<group>"; };
+		83654E441D165E0B00E7A12D /* EZRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRadio.m; sourceTree = "<group>"; };
+		83654E461D165E4700E7A12D /* EZRadioGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRadioGroup.h; sourceTree = "<group>"; };
+		83654E471D165E4700E7A12D /* EZRadioGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRadioGroup.m; sourceTree = "<group>"; };
+		83654E4A1D165EB200E7A12D /* RadioTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RadioTest.storyboard; sourceTree = "<group>"; };
+		83654E4C1D165ED500E7A12D /* RadioTestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioTestViewController1.h; sourceTree = "<group>"; };
+		83654E4D1D165ED500E7A12D /* RadioTestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioTestViewController1.m; sourceTree = "<group>"; };
+		83654E521D1692B300E7A12D /* radio_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_down@2x.png"; sourceTree = "<group>"; };
+		83654E531D1692B300E7A12D /* radio_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_down@3x.png"; sourceTree = "<group>"; };
+		83654E541D1692B300E7A12D /* radio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio@2x.png"; sourceTree = "<group>"; };
+		83654E551D1692B300E7A12D /* radio@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio@3x.png"; sourceTree = "<group>"; };
 		836FA7A81CCF581900514F4A /* EZKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836FA7AC1CCF581900514F4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		836FA7AE1CCF581900514F4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,27 +118,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F701AC6B59ADCCCB2E3631B /* libPods.a in Frameworks */,
+				73D65E890A4B413EF396B7DB /* libPods-EZKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B8B6184281D6B98A940BF49 /* Pods */ = {
+		36C790364A56CCCB0197B2DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				52643DBF6AB7D86D6454B9D2 /* Pods.debug.xcconfig */,
-				18F7060C854B0F4EB73C6EAA /* Pods.release.xcconfig */,
+				79A4CCACE8E943D576E4715A /* libPods-EZKit.a */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		8328DCCD1D0AB7FA007CC8AA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8328DCD01D0AC1E4007CC8AA /* EZSearchBar.xib */,
 				8328DCCE1D0AB7FA007CC8AA /* search_icon@2x.png */,
+				8328DCD01D0AC1E4007CC8AA /* EZSearchBar.xib */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -147,13 +165,42 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		83654E491D165EA000E7A12D /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				83654E4A1D165EB200E7A12D /* RadioTest.storyboard */,
+				83654E4C1D165ED500E7A12D /* RadioTestViewController1.h */,
+				83654E4D1D165ED500E7A12D /* RadioTestViewController1.m */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+		83654E501D168F5100E7A12D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				83654E511D168FBB00E7A12D /* Radio */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		83654E511D168FBB00E7A12D /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				83654E521D1692B300E7A12D /* radio_down@2x.png */,
+				83654E531D1692B300E7A12D /* radio_down@3x.png */,
+				83654E541D1692B300E7A12D /* radio@2x.png */,
+				83654E551D1692B300E7A12D /* radio@3x.png */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
 		836FA79F1CCF581900514F4A = {
 			isa = PBXGroup;
 			children = (
 				836FA7AA1CCF581900514F4A /* EZKit */,
 				836FA7A91CCF581900514F4A /* Products */,
-				0B8B6184281D6B98A940BF49 /* Pods */,
-				D688DFF93CF997FDC98D098F /* Frameworks */,
+				D09FA7272234A3AAB94F9796 /* Pods */,
+				36C790364A56CCCB0197B2DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -219,6 +266,10 @@
 				8313B33D1CE7F79A001C83B9 /* EZAlertView.m */,
 				833870E41D0A6AFC006BE1A3 /* EZSearchBar.h */,
 				833870E51D0A6AFC006BE1A3 /* EZSearchBar.m */,
+				83654E431D165E0B00E7A12D /* EZRadio.h */,
+				83654E441D165E0B00E7A12D /* EZRadio.m */,
+				83654E461D165E4700E7A12D /* EZRadioGroup.h */,
+				83654E471D165E4700E7A12D /* EZRadioGroup.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -245,6 +296,7 @@
 		83FCCA571CD874210061BD4C /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				83654E501D168F5100E7A12D /* Resources */,
 				83FCCA591CD874210061BD4C /* UI */,
 				83FCCA581CD874210061BD4C /* Network */,
 			);
@@ -264,6 +316,7 @@
 			isa = PBXGroup;
 			children = (
 				83FCCA5A1CD874780061BD4C /* UITest.storyboard */,
+				83654E491D165EA000E7A12D /* Radio */,
 				83E1D1981D03D76F002CB0B2 /* Window */,
 				833870E71D0A6C58006BE1A3 /* SearchBar */,
 			);
@@ -285,12 +338,13 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
-		D688DFF93CF997FDC98D098F /* Frameworks */ = {
+		D09FA7272234A3AAB94F9796 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2CB5ABC2E35DD4FDB268811E /* libPods.a */,
+				421C1ACCF780AE85B6EA833C /* Pods-EZKit.debug.xcconfig */,
+				2973336F9A26DB81CEC26470 /* Pods-EZKit.release.xcconfig */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,12 +354,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 836FA7BF1CCF581900514F4A /* Build configuration list for PBXNativeTarget "EZKit" */;
 			buildPhases = (
-				7633BA98485CA3232A0AC824 /* Check Pods Manifest.lock */,
+				2A6B9E93E5EC61F374C08F8D /* 📦 Check Pods Manifest.lock */,
 				836FA7A41CCF581900514F4A /* Sources */,
 				836FA7A51CCF581900514F4A /* Frameworks */,
 				836FA7A61CCF581900514F4A /* Resources */,
-				723E8781AC336336EB83EF9C /* Embed Pods Frameworks */,
-				1401D2903E5711826FF98A7E /* Copy Pods Resources */,
+				542146E68D740A9E10FFF588 /* 📦 Embed Pods Frameworks */,
+				922DA8D0CC4CE90874505C1D /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -354,12 +408,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E1D19A1D03D99D002CB0B2 /* WindowTest.storyboard in Resources */,
+				83654E561D1692B300E7A12D /* radio_down@2x.png in Resources */,
 				836FA7BB1CCF581900514F4A /* LaunchScreen.storyboard in Resources */,
+				83654E4B1D165EB200E7A12D /* RadioTest.storyboard in Resources */,
 				8328DCCF1D0AB7FA007CC8AA /* search_icon@2x.png in Resources */,
 				83FCCA611CD8AD780061BD4C /* EZKit.podspec in Resources */,
 				836FA7B81CCF581900514F4A /* Assets.xcassets in Resources */,
 				83FCCA5B1CD874780061BD4C /* UITest.storyboard in Resources */,
+				83654E581D1692B300E7A12D /* radio@2x.png in Resources */,
 				833870E91D0A6C64006BE1A3 /* SearchBar.storyboard in Resources */,
+				83654E571D1692B300E7A12D /* radio_down@3x.png in Resources */,
+				83654E591D1692B300E7A12D /* radio@3x.png in Resources */,
 				836FA7B61CCF581900514F4A /* Main.storyboard in Resources */,
 				8328DCD11D0AC1E4007CC8AA /* EZSearchBar.xib in Resources */,
 			);
@@ -368,49 +427,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1401D2903E5711826FF98A7E /* Copy Pods Resources */ = {
+		2A6B9E93E5EC61F374C08F8D /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		723E8781AC336336EB83EF9C /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7633BA98485CA3232A0AC824 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		542146E68D740A9E10FFF588 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZKit/Pods-EZKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		922DA8D0CC4CE90874505C1D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EZKit/Pods-EZKit-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -434,11 +493,14 @@
 				83E1D1A41D042795002CB0B2 /* NSDate+Extension.m in Sources */,
 				833870EC1D0A6C82006BE1A3 /* SearchBarTestViewController1.m in Sources */,
 				830DFF501CE6B828008E0F5E /* UITableView+Extension.m in Sources */,
+				83654E451D165E0B00E7A12D /* EZRadio.m in Sources */,
 				8345650D1CE62C9300650A3A /* EZBaseController.m in Sources */,
 				8345650E1CE62C9300650A3A /* EZBaseTableViewController.m in Sources */,
 				8382DD061CFA795300FE9415 /* UIColor+Hex.m in Sources */,
 				836FA7C61CCF61A100514F4A /* EZTableView.m in Sources */,
 				836FA7AD1CCF581900514F4A /* main.m in Sources */,
+				83654E4E1D165ED500E7A12D /* RadioTestViewController1.m in Sources */,
+				83654E481D165E4700E7A12D /* EZRadioGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +610,7 @@
 		};
 		836FA7C01CCF581900514F4A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52643DBF6AB7D86D6454B9D2 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 421C1ACCF780AE85B6EA833C /* Pods-EZKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
@@ -562,7 +624,7 @@
 		};
 		836FA7C11CCF581900514F4A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18F7060C854B0F4EB73C6EAA /* Pods.release.xcconfig */;
+			baseConfigurationReference = 2973336F9A26DB81CEC26470 /* Pods-EZKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
