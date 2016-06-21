@@ -39,24 +39,44 @@
 
 - (void)_initSelf
 {
-    self.backgroundColor = [UIColor redColor];
-    
     _iconImageView = [UIImageView new];
     [self addSubview:_iconImageView];
     
     _textLabel = [UILabel new];
+    _textLabel.font = [UIFont systemFontOfSize:17];
     [self addSubview:_textLabel];
+    
+    UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapHandle:)];
+    [self addGestureRecognizer:tapGesture];
+}
+
+- (void)tapHandle:(UITapGestureRecognizer *)tapGesture
+{
+    if (_checked) {
+        _checked = NO;
+        _iconImageView.image = _unselectImage;
+    } else {
+        _checked = YES;
+        _iconImageView.image = _selectedImage;
+    }
 }
 
 #pragma mark - Setter
-- (void)setIconImage:(UIImage *)iconImage
+- (void)setSelectedImage:(UIImage *)selectedImage
 {
-    _iconImage = iconImage;
-    _iconImageView.image = _iconImage;
+    _selectedImage = selectedImage;
+}
+
+- (void)setUnselectImage:(UIImage *)unselectImage
+{
+    _unselectImage = unselectImage;
+    _iconImageView.image = _unselectImage;
     
     [_iconImageView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.leading.mas_offset(0);
-        make.centerY.equalTo(self);
+        make.leading.mas_equalTo(0);
+        make.width.mas_equalTo(_unselectImage.size.width);
+        make.height.mas_equalTo(_unselectImage.size.height);
+        make.centerY.equalTo(self.mas_centerY);
     }];
 }
 
@@ -64,12 +84,12 @@
 {
     _text = text;
     _textLabel.text = text;
-    _textLabel.backgroundColor = [UIColor blueColor];
     
     [_textLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.bottom.mas_offset(0);
-        make.leading.mas_offset(_iconImage.size.width);
-        make.trailing.mas_offset(10);
+        make.top.mas_equalTo(0);
+        make.bottom.mas_offset(-1);
+        make.leading.equalTo(_iconImageView.mas_trailing);
+        make.trailing.mas_offset(-10);
     }];
 }
 

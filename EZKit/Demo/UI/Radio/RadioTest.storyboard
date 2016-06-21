@@ -25,8 +25,9 @@
                                     <constraint firstAttribute="height" constant="44" id="fIv-It-94H"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="iconImage" value="radio.png"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="aaa"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="单选项"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="unselectImage" value="radio.png"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="radio_down.png"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
@@ -47,5 +48,6 @@
     </scenes>
     <resources>
         <image name="radio.png" width="33" height="33"/>
+        <image name="radio_down.png" width="33" height="33"/>
     </resources>
 </document>
