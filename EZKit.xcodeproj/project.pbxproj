@@ -14,20 +14,13 @@
 		831680BB1D0439320060A1C0 /* EZPopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 831680BA1D0439320060A1C0 /* EZPopWindow.m */; };
 		8328DCCF1D0AB7FA007CC8AA /* search_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8328DCCE1D0AB7FA007CC8AA /* search_icon@2x.png */; };
 		8328DCD11D0AC1E4007CC8AA /* EZSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8328DCD01D0AC1E4007CC8AA /* EZSearchBar.xib */; };
-		833870E61D0A6AFC006BE1A3 /* EZSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 833870E51D0A6AFC006BE1A3 /* EZSearchBar.m */; };
 		833870E91D0A6C64006BE1A3 /* SearchBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833870E81D0A6C64006BE1A3 /* SearchBar.storyboard */; };
 		833870EC1D0A6C82006BE1A3 /* SearchBarTestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 833870EB1D0A6C82006BE1A3 /* SearchBarTestViewController1.m */; };
 		8345650D1CE62C9300650A3A /* EZBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 834565081CE62C9300650A3A /* EZBaseController.m */; };
 		8345650E1CE62C9300650A3A /* EZBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8345650A1CE62C9300650A3A /* EZBaseTableViewController.m */; };
 		8345650F1CE62C9300650A3A /* EZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8345650C1CE62C9300650A3A /* EZBaseViewController.m */; };
-		83654E451D165E0B00E7A12D /* EZRadio.m in Sources */ = {isa = PBXBuildFile; fileRef = 83654E441D165E0B00E7A12D /* EZRadio.m */; };
-		83654E481D165E4700E7A12D /* EZRadioGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 83654E471D165E4700E7A12D /* EZRadioGroup.m */; };
 		83654E4B1D165EB200E7A12D /* RadioTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83654E4A1D165EB200E7A12D /* RadioTest.storyboard */; };
 		83654E4E1D165ED500E7A12D /* RadioTestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 83654E4D1D165ED500E7A12D /* RadioTestViewController1.m */; };
-		83654E561D1692B300E7A12D /* radio_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83654E521D1692B300E7A12D /* radio_down@2x.png */; };
-		83654E571D1692B300E7A12D /* radio_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83654E531D1692B300E7A12D /* radio_down@3x.png */; };
-		83654E581D1692B300E7A12D /* radio@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83654E541D1692B300E7A12D /* radio@2x.png */; };
-		83654E591D1692B300E7A12D /* radio@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83654E551D1692B300E7A12D /* radio@3x.png */; };
 		836FA7AD1CCF581900514F4A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 836FA7AC1CCF581900514F4A /* main.m */; };
 		836FA7B01CCF581900514F4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 836FA7AF1CCF581900514F4A /* AppDelegate.m */; };
 		836FA7B31CCF581900514F4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 836FA7B21CCF581900514F4A /* ViewController.m */; };
@@ -60,8 +53,6 @@
 		831680BA1D0439320060A1C0 /* EZPopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZPopWindow.m; sourceTree = "<group>"; };
 		8328DCCE1D0AB7FA007CC8AA /* search_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_icon@2x.png"; sourceTree = "<group>"; };
 		8328DCD01D0AC1E4007CC8AA /* EZSearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EZSearchBar.xib; sourceTree = "<group>"; };
-		833870E41D0A6AFC006BE1A3 /* EZSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZSearchBar.h; sourceTree = "<group>"; };
-		833870E51D0A6AFC006BE1A3 /* EZSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZSearchBar.m; sourceTree = "<group>"; };
 		833870E81D0A6C64006BE1A3 /* SearchBar.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchBar.storyboard; sourceTree = "<group>"; };
 		833870EA1D0A6C82006BE1A3 /* SearchBarTestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarTestViewController1.h; sourceTree = "<group>"; };
 		833870EB1D0A6C82006BE1A3 /* SearchBarTestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarTestViewController1.m; sourceTree = "<group>"; };
@@ -72,17 +63,9 @@
 		8345650B1CE62C9300650A3A /* EZBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZBaseViewController.h; sourceTree = "<group>"; };
 		8345650C1CE62C9300650A3A /* EZBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZBaseViewController.m; sourceTree = "<group>"; };
 		834565101CE62DFF00650A3A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		83654E431D165E0B00E7A12D /* EZRadio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRadio.h; sourceTree = "<group>"; };
-		83654E441D165E0B00E7A12D /* EZRadio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRadio.m; sourceTree = "<group>"; };
-		83654E461D165E4700E7A12D /* EZRadioGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EZRadioGroup.h; sourceTree = "<group>"; };
-		83654E471D165E4700E7A12D /* EZRadioGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EZRadioGroup.m; sourceTree = "<group>"; };
 		83654E4A1D165EB200E7A12D /* RadioTest.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RadioTest.storyboard; sourceTree = "<group>"; };
 		83654E4C1D165ED500E7A12D /* RadioTestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadioTestViewController1.h; sourceTree = "<group>"; };
 		83654E4D1D165ED500E7A12D /* RadioTestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadioTestViewController1.m; sourceTree = "<group>"; };
-		83654E521D1692B300E7A12D /* radio_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_down@2x.png"; sourceTree = "<group>"; };
-		83654E531D1692B300E7A12D /* radio_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio_down@3x.png"; sourceTree = "<group>"; };
-		83654E541D1692B300E7A12D /* radio@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio@2x.png"; sourceTree = "<group>"; };
-		83654E551D1692B300E7A12D /* radio@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radio@3x.png"; sourceTree = "<group>"; };
 		836FA7A81CCF581900514F4A /* EZKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		836FA7AC1CCF581900514F4A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		836FA7AE1CCF581900514F4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -178,20 +161,8 @@
 		83654E501D168F5100E7A12D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				83654E511D168FBB00E7A12D /* Radio */,
 			);
 			path = Resources;
-			sourceTree = "<group>";
-		};
-		83654E511D168FBB00E7A12D /* Radio */ = {
-			isa = PBXGroup;
-			children = (
-				83654E521D1692B300E7A12D /* radio_down@2x.png */,
-				83654E531D1692B300E7A12D /* radio_down@3x.png */,
-				83654E541D1692B300E7A12D /* radio@2x.png */,
-				83654E551D1692B300E7A12D /* radio@3x.png */,
-			);
-			path = Radio;
 			sourceTree = "<group>";
 		};
 		836FA79F1CCF581900514F4A = {
@@ -264,12 +235,6 @@
 				836FA7C51CCF61A100514F4A /* EZTableView.m */,
 				8313B33C1CE7F79A001C83B9 /* EZAlertView.h */,
 				8313B33D1CE7F79A001C83B9 /* EZAlertView.m */,
-				833870E41D0A6AFC006BE1A3 /* EZSearchBar.h */,
-				833870E51D0A6AFC006BE1A3 /* EZSearchBar.m */,
-				83654E431D165E0B00E7A12D /* EZRadio.h */,
-				83654E441D165E0B00E7A12D /* EZRadio.m */,
-				83654E461D165E4700E7A12D /* EZRadioGroup.h */,
-				83654E471D165E4700E7A12D /* EZRadioGroup.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -408,17 +373,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				83E1D19A1D03D99D002CB0B2 /* WindowTest.storyboard in Resources */,
-				83654E561D1692B300E7A12D /* radio_down@2x.png in Resources */,
 				836FA7BB1CCF581900514F4A /* LaunchScreen.storyboard in Resources */,
 				83654E4B1D165EB200E7A12D /* RadioTest.storyboard in Resources */,
 				8328DCCF1D0AB7FA007CC8AA /* search_icon@2x.png in Resources */,
 				83FCCA611CD8AD780061BD4C /* EZKit.podspec in Resources */,
 				836FA7B81CCF581900514F4A /* Assets.xcassets in Resources */,
 				83FCCA5B1CD874780061BD4C /* UITest.storyboard in Resources */,
-				83654E581D1692B300E7A12D /* radio@2x.png in Resources */,
 				833870E91D0A6C64006BE1A3 /* SearchBar.storyboard in Resources */,
-				83654E571D1692B300E7A12D /* radio_down@3x.png in Resources */,
-				83654E591D1692B300E7A12D /* radio@3x.png in Resources */,
 				836FA7B61CCF581900514F4A /* Main.storyboard in Resources */,
 				8328DCD11D0AC1E4007CC8AA /* EZSearchBar.xib in Resources */,
 			);
@@ -481,7 +442,6 @@
 			files = (
 				83E1D19D1D03D9DC002CB0B2 /* PopWindowTestViewController1.m in Sources */,
 				83FCCA5E1CD875150061BD4C /* NetworkTest1.m in Sources */,
-				833870E61D0A6AFC006BE1A3 /* EZSearchBar.m in Sources */,
 				8345650F1CE62C9300650A3A /* EZBaseViewController.m in Sources */,
 				836FA7B31CCF581900514F4A /* ViewController.m in Sources */,
 				836FA7B01CCF581900514F4A /* AppDelegate.m in Sources */,
@@ -493,14 +453,12 @@
 				83E1D1A41D042795002CB0B2 /* NSDate+Extension.m in Sources */,
 				833870EC1D0A6C82006BE1A3 /* SearchBarTestViewController1.m in Sources */,
 				830DFF501CE6B828008E0F5E /* UITableView+Extension.m in Sources */,
-				83654E451D165E0B00E7A12D /* EZRadio.m in Sources */,
 				8345650D1CE62C9300650A3A /* EZBaseController.m in Sources */,
 				8345650E1CE62C9300650A3A /* EZBaseTableViewController.m in Sources */,
 				8382DD061CFA795300FE9415 /* UIColor+Hex.m in Sources */,
 				836FA7C61CCF61A100514F4A /* EZTableView.m in Sources */,
 				836FA7AD1CCF581900514F4A /* main.m in Sources */,
 				83654E4E1D165ED500E7A12D /* RadioTestViewController1.m in Sources */,
-				83654E481D165E4700E7A12D /* EZRadioGroup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

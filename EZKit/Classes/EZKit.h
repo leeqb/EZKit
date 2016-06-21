@@ -29,8 +29,5 @@
 #import "EZAlertView.h"
 #import "EZPopWindow.h"
 #import "EZCountDownButton.h"
-#import "EZSearchBar.h"
-#import "EZRadio.h"
-#import "EZRadioGroup.h"
 
 #endif /* EZKit_h */

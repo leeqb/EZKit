@@ -17,18 +17,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xAL-rX-0rS" customClass="EZRadio">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xAL-rX-0rS">
                                 <rect key="frame" x="40" y="184" width="240" height="44"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="eNr-pk-b2u"/>
                                     <constraint firstAttribute="height" constant="44" id="fIv-It-94H"/>
                                 </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="text" value="单选项"/>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="unselectImage" value="radio.png"/>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="selectedImage" value="radio_down.png"/>
-                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -46,8 +41,4 @@
             <point key="canvasLocation" x="236" y="358"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="radio.png" width="33" height="33"/>
-        <image name="radio_down.png" width="33" height="33"/>
-    </resources>
 </document>
