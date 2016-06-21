@@ -40,6 +40,7 @@
 - (void)_initSelf
 {
     _iconImageView = [UIImageView new];
+    _iconImageView.image = [UIImage imageNamed:@"radio"];
     [self addSubview:_iconImageView];
     
     _textLabel = [UILabel new];

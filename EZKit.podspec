@@ -121,7 +121,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "EZKit/Resources/*.{png,xib}"
+  s.resources = "EZKit/Resources/*.{png,xib}", "EZKit/Resources/Radio/*.{png}"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
