@@ -11,8 +11,8 @@ IB_DESIGNABLE
 
 @property (nonatomic, readonly) BOOL checked;
 
-@property (nonatomic, weak) IBInspectable UIImage *selectedImage;
-@property (nonatomic, weak) IBInspectable UIImage *unselectImage;
-@property (nonatomic, copy) IBInspectable NSString *text;
+@property (nonatomic, strong) IBInspectable UIImage *selectedImage;
+@property (nonatomic, strong) IBInspectable UIImage *unselectImage;
+@property (nonatomic, strong) IBInspectable NSString *text;
 
 @end
