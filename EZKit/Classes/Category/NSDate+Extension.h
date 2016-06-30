@@ -22,4 +22,20 @@ extern NSString *kEZDateFormat_TIME; // 时分秒
 
 + (NSString *)timeStringWithSeconds:(NSTimeInterval)seconds formatString:(NSString *)formatString;
 
+// 计算年龄
+- (NSInteger)getAgeWithBirthDate:(NSDate *)birthday;
+
+/**
+ *  根据生日计算星座
+ *
+ *  @param month 月份
+ *  @param day   日期
+ *
+ *  @return 星座名称
+ */
+- (NSString *)getAstroWithMonth:(NSInteger)m day:(NSInteger)d;
+
+// 根据年份得到生肖
+- (NSString *)getZodiacWithYear:(NSInteger)y;
+
 @end
