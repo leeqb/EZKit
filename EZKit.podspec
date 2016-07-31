@@ -151,5 +151,6 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
   s.dependency "AFNetworking"
   s.dependency "Masonry"
+  s.dependency "MJRefresh"
 
 end
