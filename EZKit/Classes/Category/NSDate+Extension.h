@@ -23,7 +23,7 @@ extern NSString *kEZDateFormat_TIME; // 时分秒
 + (NSString *)timeStringWithSeconds:(NSTimeInterval)seconds formatString:(NSString *)formatString;
 
 // 计算年龄
-- (NSInteger)getAgeWithBirthDate:(NSDate *)birthday;
++ (NSInteger)getAgeWithBirthDate:(NSDate *)birthday;
 
 /**
  *  根据生日计算星座

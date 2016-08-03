@@ -45,7 +45,7 @@ NSString *kEZDateFormat_TIME = @"HH:mm:ss"; // 时分秒
 }
 
 // 计算年龄
-- (NSInteger)getAgeWithBirthDate:(NSDate *)birthday {
++ (NSInteger)getAgeWithBirthDate:(NSDate *)birthday {
     //日历
     NSCalendar *gregorian = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
     NSUInteger unitFlags = NSCalendarUnitYear;
