@@ -22,6 +22,8 @@
 #import "UITableViewCell+Extension.h"
 #import "NSDate+Extension.h"
 
+#import "Category/NSDate+Extension.h"
+
 #pragma mark - Network
 #import "EZNetwork.h"
 
