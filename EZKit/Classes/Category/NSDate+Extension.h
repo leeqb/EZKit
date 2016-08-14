@@ -17,7 +17,7 @@ extern NSString *kEZDateFormat_TIME; // 时分秒
 
 - (NSString *)stringWithFormat:(NSString *)formatString;
 
-- (NSDate *)dateWithFormat:(NSString *)dateString formatString:(NSString *)formatString;
++ (NSDate *)dateWithFormat:(NSString *)dateString formatString:(NSString *)formatString;
 
 // 返回到当天0点0时0分
 - (NSDate *)zeroDate;

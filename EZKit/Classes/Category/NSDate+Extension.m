@@ -22,7 +22,7 @@ NSString *kEZDateFormat_TIME = @"HH:mm:ss"; // 时分秒
     return [fmt stringFromDate:self];
 }
 
-- (NSDate *)dateWithFormat:(NSString *)dateString formatString:(NSString *)formatString
++ (NSDate *)dateWithFormat:(NSString *)dateString formatString:(NSString *)formatString
 {
     NSDateFormatter *fmt = [NSDateFormatter new];
     fmt.dateFormat = formatString;
