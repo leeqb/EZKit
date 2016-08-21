@@ -18,7 +18,7 @@
 
 @property (nonatomic, assign) id<EZCountDownButtonDelegate> delegate;
 
-@property (nonatomic, weak) UIColor *disabledBackgroundColor;
+@property (nonatomic, strong) UIColor *disabledBackgroundColor;
 
 - (void)startCountDown:(NSInteger)seconds;
 
