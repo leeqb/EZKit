@@ -52,32 +52,54 @@
     _originalBgColor = self.backgroundColor;
 }
 
-- (void)startCountDown:(NSInteger)seconds
+#pragma mark - Private Methods
+- (void)refreshButtonTitle
 {
-    _totalSeconds = seconds;
-    self.enabled = NO;
-    self.backgroundColor = [UIColor lightGrayColor];
-    
-    if(_totalSeconds > 0) {
-        _leftSeconds = _totalSeconds;
+    if (_delegate && [_delegate respondsToSelector:@selector(attributedTextForDisabledState:)]) {
+        [self setAttributedTitle:[_delegate attributedTextForDisabledState:_leftSeconds] forState:UIControlStateNormal];
+    } else {
         [self setTitle:[NSString stringWithFormat:@"剩余%ld秒", (long)_leftSeconds] forState:UIControlStateNormal];
-        _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerHandle) userInfo:nil repeats:YES];
     }
-}
-
-- (void)timerHandle
-{
-    _leftSeconds--;
-    [self setTitle:[NSString stringWithFormat:@"剩余%ld秒", (long)_leftSeconds] forState:UIControlStateNormal];
     
     if(_leftSeconds <= 0) {
-        [self setTitle:_originalTitle forState:UIControlStateNormal];
+        if (_delegate && [_delegate respondsToSelector:@selector(attributedTextForDisabledState:)]) {
+            [self setAttributedTitle:[[NSMutableAttributedString alloc] initWithString:_originalTitle] forState:UIControlStateNormal];
+        } else {
+            [self setTitle:_originalTitle forState:UIControlStateNormal];
+        }
+        
         [_timer invalidate];
         _timer = nil;
         
         self.enabled = YES;
         self.backgroundColor = _originalBgColor;
     }
+}
+
+#pragma mark - Actions
+- (void)startCountDown:(NSInteger)seconds
+{
+    _totalSeconds = seconds;
+    self.enabled = NO;
+    
+    if (_disabledBackgroundColor) {
+        self.backgroundColor = _disabledBackgroundColor;
+    } else {
+        self.backgroundColor = [UIColor lightGrayColor];
+    }
+    
+    if(_totalSeconds > 0) {
+        _leftSeconds = _totalSeconds;
+        [self refreshButtonTitle];
+        _timer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerHandle) userInfo:nil repeats:YES];
+    }
+}
+
+#pragma mark - Timer
+- (void)timerHandle
+{
+    _leftSeconds--;
+    [self refreshButtonTitle];
 }
 
 @end

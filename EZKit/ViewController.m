@@ -10,6 +10,7 @@
 #import "PopWindowTestViewController1.h"
 #import "SearchBarTestViewController1.h"
 #import "RadioTestViewController1.h"
+#import "ButtonTestViewController.h"
 
 #define LOAD_CONTROLLER(nib, vc)    [[UIStoryboard storyboardWithName:nib bundle:nil]instantiateViewControllerWithIdentifier:vc];
 
@@ -36,7 +37,7 @@
     //NSLog(@"%@", [currentDate stringWithFormat:kEZDateFormat_FULL]);
     //NSLog(@"%@", [NSDate timeStringWithSeconds:20 formatString:kEZDateFormat_TIME]);
     
-    _menuArray = @[@"弹出框", @"搜索框", @"单选框"];
+    _menuArray = @[@"弹出框", @"搜索框", @"单选框", @"倒计时按钮"];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -72,6 +73,12 @@
         case 2:
         {
             RadioTestViewController1 *vc = LOAD_CONTROLLER(@"RadioTest", @"RadioTestViewController1");
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 3:
+        {
+            ButtonTestViewController *vc = LOAD_CONTROLLER(@"UITest", @"ButtonTestViewController");
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
