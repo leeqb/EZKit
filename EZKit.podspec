@@ -91,10 +91,10 @@ Pod::Spec.new do |s|
   #
 
   # s.source_files  = "EZKit/Classes", "EZKit/Classes/**/*.{h,m}"
-  s.source_files  = "EZKit/Classes/*.{h,m}"
+  s.source_files  = "EZKit/Classes/EZKit.h"
   #s.exclude_files = "EZKit/Classes/Exclude"
 
-  # s.public_header_files = "Classes/**/*.h"
+  s.public_header_files = "EZKit/Classes/EZKit.h"
 
   s.subspec "Base" do |bs|
     bs.source_files = "EZKit/Classes/Base/*.{h,m}"
