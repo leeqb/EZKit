@@ -105,10 +105,14 @@ Pod::Spec.new do |s|
   end
 
   s.subspec "Network" do |nt|
+    nt.dependency "AFNetworking"
+
     nt.source_files = "EZKit/Classes/Network/*.{h,m}"
   end
 
   s.subspec "UI" do |ui|
+    ui.dependency "Masonry"
+    ui.dependency "MJRefresh"
     ui.source_files = "EZKit/Classes/UI/*.{h,m}"
   end
 
@@ -149,8 +153,5 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency "AFNetworking"
-  s.dependency "Masonry"
-  s.dependency "MJRefresh"
 
 end
