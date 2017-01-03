@@ -40,12 +40,14 @@
     NSURLSessionTask *dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
         id result = data;
         
-        NSError *jsonError = nil;
-        NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&jsonError];
-        
-        // 如果JSON序列化失败，就将原始数据返回
-        if (!jsonError) {
-            result = dict;
+        if (data != nil) {
+            NSError *jsonError = nil;
+            NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&jsonError];
+            
+            // 如果JSON序列化失败，就将原始数据返回
+            if (!jsonError) {
+                result = dict;
+            }
         }
         
         // 正常情况不返回error
